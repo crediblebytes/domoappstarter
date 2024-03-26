@@ -1,0 +1,34 @@
+/*Theme the Tabulator element*/
+#tabulator-table{
+  background-color:#888888;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+/*Theme the header*/
+#tabulator-table .tabulator-header {
+  background-color:#99CCEE;
+  color:#555555;
+}
+
+#tabulator-table .tabulator-col {
+  background-color:#99CCEE;
+}
+
+
+/*Allow column header names to wrap lines*/
+#etabulator-table .tabulator-header .tabulator-col,
+#tabulator-table .tabulator-header .tabulator-col-row-handle {
+  white-space: normal;
+}
+
+/*Color the table rows*/
+#tabulator-table .tabulator-tableholder .tabulator-table .tabulator-row{
+  color:#fff;
+  background-color: #666;
+}
+
+/*Color even rows*/
+#tabulator-table .tabulator-tableholder .tabulator-table .tabulator-row:nth-child(even) {
+  background-color: #555555;
+}

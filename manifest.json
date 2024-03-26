@@ -1,0 +1,26 @@
+{
+  "name": "DWP Game Night Planner NF",
+  "version": "1.0.0",
+  "size": {
+    "width": 6,
+    "height": 6
+  },
+  "mapping": [ {
+    "alias": "boardgames",
+    "dataSetId": "0e0c22d9-72f9-4115-81cf-a090b9645e65",
+    "fields": []
+  }],
+  "collections": [
+    {
+      "name": "dwp_ownership",
+      "schema": {"columns": 
+            [{"name": "boardGameId", "type": "LONG"}, 
+              {"name": "owned", "type": "STRING"}]
+        },
+      "syncEnabled": true
+    }
+  ],
+  "fileName": "manifest.json",
+  "id": "a7f8efdd-36fe-4d48-92bd-727cab20b080",
+  "proxyId": "72fe3ff6-4ba3-494e-8161-f5f738d52779"
+}
